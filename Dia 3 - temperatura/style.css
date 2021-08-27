@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #2b91b8;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+
+.busca input, button {
+    padding: 8px 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.info{
+  
+    display: flex;
+  
+    justify-content: space-around;
+}
+
+.resultado{
+    display: none;
+    flex-direction: column;
+    background-color: #1d4f63;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-top: 10px;
+    
+   
+}
+
+.titulo{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.aviso{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.temp img{
+    position: relative;
+    left: 60px;
+}
